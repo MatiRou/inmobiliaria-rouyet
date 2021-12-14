@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Inmobiliaria Salomé</title>
+</head>
+<body class="contacto-container">
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../img/logotipo2.png" alt="logotipo"></a>
+        </div>
+        <div class="nombre">
+            <a href="../index.html"><h1>Inmobiliaria Salomé</h1></a>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="../pages/alqtemp.html">ALQUILER TEMPORARIO</a></li>
+            <li><a href="../pages/ventas.html">VENTAS</a></li>
+            <li><a href="../pages/alquiler.html">ALQUILER</a></li>
+            <li><a href="../pages/contacto.html">CONTACTO</a></li>
+            <li><a href="../pages/ubicacion.html">UBICACION</a></li>
+        </ul>
+    </nav>
+    <section class="texto">
+        <h1>Contáctenos</h1>
+        <div id="texto">
+            <p>Nuestra experiencia y trayectoria se basa en el dialogo con el cliente. Saber escuchar y recomentar eficientemente. LLámenos. Su consulta nos interesa.</p>
+        </div>
+        <div id="datos">
+            <ul>
+                <li><img src="../img/redes/tel.png" alt="Telefono"> +54 9 11 1111-1111</li>
+                <li><img src="../img/redes/mail.png" alt="">Contacto@innmobiliariasalome.com.ar</li>
+            </ul>
+        </div>
+    </section>
+    <section class="formulario">
+        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+            <article class="contacto">
+                <h3>Formulario de Contacto</h3>
+                <label for="nombre">Nombre</label>
+                <input type="text" required placeholder="ingrese su nombre"><br>
+                <label for="apellido">Apellido</label>
+                <input type="text" required placeholder="ingrese su apellido"><br>
+                <label for="email">Email</label>
+                <input type="email" required placeholder="ingrese su email"><br>
+                <label for="telefono">Telefono</label>
+                <input type="text" required placeholder="ingrese su telefono"><br>
+                <label for="ID">ID del Inmueble</label>
+                <input type="text"><br>
+            </article>
+            <article class="servicio">
+                <h4>Seleccione el servicio buscado</h4>
+                <label for="venta">Venta</label>
+                <input type="radio" name="servicio" value="venta" id="venta" checked><br>
+                <label for="alquiler">Alquiler</label>
+                <input type="radio" name="servicio" value="alquiler" id="alquiler"><br>
+                <label for="alqtemp">Alquiler Temporario</label>
+                <input type="radio" name="servicio" value="Alquiler temporario" id="alqtemp"><br>
+                <label for="tasaciones">Tasaciones</label>
+                <input type="radio" name="servicio" value="tasaciones" id="tasaciones"><br>
+            </article>
+            <!-- opcion 2-->
+            <!-- <select name="servicios" id="">
+                <option></option>
+                <option>Venta</option>
+                <option>Alquiler</option>
+                <option>Alquier Temporario</option>
+                <option>Tasaciones</option>
+            </select><br> -->
+            <article class="comentario">
+                <textarea name="areatexto" id="" cols="30" rows="10" placeholder="Deje su comentario"></textarea><br>
+                <label for="tasa2">En caso de Tasaciones adjuntar archivo</label> <input type="file"><br>
+                <input type="reset" value="borrar">
+                <input type="submit" value="enviar"><br>
+            </article>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="logof">
+            <a href="../index.html"><img src="../img/logotipo2.png" alt="logotipo"></a>
+        </div>
+        <div class="horarios">
+            <ul>
+                <li>Horarios de Atencion</li>
+                <li>Lunes a Viernes de 10 a 19hs</li>
+                <li>Sabados de 10 a 14hs</li>
+            </ul>
+        </div>
+        <div class="datos">
+            <ul>
+                <li><img src="../img/redes/tel.png" alt="Telefono"> +54 9 11 1111-1111</li>
+                <li><img src="../img/redes/mail.png" alt="">Contacto@innmobiliariasalome.com.ar</li>
+                <li>Todos los Derechos Reservados</li>
+            </ul>
+        </div>
+        <div class="redes">
+            <ul>
+                <li><a href="https://www.facebook.com/"><img src="../img/redes/fb.png" alt="Facebook"></a> Inmobiliaria Salomé</li>
+                <li><a href="https://twitter.com/"><img src="../img/redes/tw.png" alt="Twitter"></a> @inmobiliariaSalome</li>
+                <li><a href="https://www.instagram.com/?hl=es-la"><img src="../img/redes/insta.png" alt="Instagram"></a> Inmobiliaria Salome</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

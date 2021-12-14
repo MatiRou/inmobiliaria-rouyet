@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #9cacbf;
+    min-height: 100%;
+}
+
+/* inicio header */
+
+.header{
+    grid-area: header;
+    background-color: #032e42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+}
+header h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-right: 5px;
+    letter-spacing: 5px;
+}
+header .nombre a{
+    text-decoration: none;
+}
+
+/* inicio navbar */
+
+.navbar{
+    grid-area: navbar;
+    background-color: #032e42;
+}
+nav ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 4px;
+}
+nav a:hover{
+    color:#0077c4;
+}
+
+/* inicio quienes somos */
+
+.main_quienessomos{
+    grid-area: main_quienessomos;
+    background-image: url(/img/portada3.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 95%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.main_quienessomos h2{
+    font-size: xx-large;
+}
+.main_quienessomos article{
+    width: 60%;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgba(192, 202, 180, 0.65);
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* inicio servicios */
+
+.main_servicios{
+    grid-area: main_servicios;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.main_servicios h2{
+    font-size: xx-large;
+}
+.main_servicios ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.main_servicios ul li{
+    height: 200px;
+    width: 300px;
+    background-color: #2b6684;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: double 5px #012e67;
+    border-radius: 1rem;
+
+}
+.main_servicios ul a{
+    text-decoration: none;
+    color: white;
+}
+.main_servicios ul a:hover{
+    color: #032e42;
+}
+
+/* inicio destacadas */
+
+.main_destacadas{
+    grid-area: main_destacadas;
+    margin-bottom: 3rem;
+}
+.main_destacadas h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: xx-large;
+}
+.destacados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.destacados article{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #2b6684;
+    border: #012e67 double 2px;
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+}
+.destacados article h3{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.destacados img{
+    width: 70%;
+    margin: auto;
+}
+.destacados img:hover{
+    transform: scale(1.7);
+    transition: all 0.7s;
+}
+.destacados article p{
+    margin: 5px;
+}
+.destacados .precio{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.destacados .boton1{
+    display: inline-flex;
+    width: 80px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.destacados .boton1 a{
+    color: white;
+    text-decoration: none;
+}
+.boton1 a:hover{
+    color: #6a8680;
+}
+
+
+/* inicio footer */
+
+.footer{
+    grid-area: footer;
+    background-color: #0a1417;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: smaller;
+}
+footer .logof{
+    width: 150px;
+}
+footer .logof img{
+    width: 50px;
+}
+.horarios ul{
+    list-style: none;
+}
+.datos{
+    text-align: center;
+}
+.datos ul{
+    list-style: none;
+}
+.datos img{
+    width: 1rem;
+}
+.redes{
+    text-align: center;
+}
+.redes ul{
+    list-style: none;
+}
+.redes img{
+    width: 1rem;
+}
+
+/* propiedades alquiler, alquiler temporario, venta */
+
+.propiedades{
+    grid-area: propiedades;
+    margin-bottom: 3rem;
+}
+.propiedades h2{
+    text-align: center;
+    margin: 2rem;
+    font-size: xx-large;
+}
+
+/* Contacto html */
+
+.texto{
+    grid-area: texto;
+    width: 350px;
+    justify-self: center;
+    align-self: center;
+    margin: 2rem;
+}
+#texto{
+    margin: 1rem;
+}
+#datos ul{
+    list-style: none;
+}
+#datos img{
+    width: 1rem;
+}
+
+.formulario{
+    grid-area: formulario;
+    justify-self: center;
+    align-self: center;
+    margin: 1rem;
+    border: double 5px #012e67;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.formulario .contacto{
+    padding: 1rem;
+}
+.formulario .servicio{
+    padding: 1rem;
+}
+
+/* Ubicacion */
+
+.ubi-text{
+    grid-area: ubi-text;
+    justify-self: center;
+    align-self: center;
+    margin: 1rem;
+    border: double 5px #012e67;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.ubi-mapa{
+    grid-area: ubi-mapa;
+    justify-self: center;
+    align-self: center;
+    margin: 2rem;
+}
+
+
+/* inicio container mobile */
+
+.index-container{
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "navbar"
+        "main_quienessomos"
+        "main_servicios"
+        "main_destacadas"
+        "footer";
+    grid-template-rows: 80px 50px auto auto auto auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "propiedades"
+    "footer";
+    grid-template-rows: 80px 50px auto auto;
+}
+
+.contacto-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "texto"
+    "formulario"
+    "footer";
+    grid-template-rows: 80px 50px auto auto auto;
+}
+
+.ubi-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "ubi-text"
+    "ubi-mapa"
+    "footer";
+    grid-template-rows: 80px 50px auto auto auto;
+}
+/* media querries */
+/* vista tablet en adelante*/
+@media only screen and (min-width:768px) {
+    .index-container{
+        grid-template-areas: 
+            "header navbar"
+            "main_quienessomos main_quienessomos"
+            "main_servicios main_servicios"
+            "main_destacadas main_destacadas"
+            "footer footer";
+        grid-template-rows: 100px auto auto auto 100px;
+        grid-template-columns: 300px 1fr;
+    }
+    .grid-container{
+        grid-template-areas: 
+            "header navbar"
+            "propiedades propiedades"
+            "footer footer";
+        grid-template-rows: 100px 1fr 100px;
+        grid-template-columns: 300px 1fr;
+    }
+    .contacto-container{
+        grid-template-areas: 
+            "header navbar navbar navbar"
+            "texto texto formulario formulario"
+            "footer footer footer footer";
+        grid-template-rows: 100px 1fr 100px;
+        grid-template-columns: 300px 1fr 1fr 1fr;
+    }
+    .ubi-container{
+        grid-template-areas: 
+        "header navbar navbar navbar"
+        "ubi-text ubi-text ubi-text ubi-text"
+        "ubi-mapa ubi-mapa ubi-mapa ubi-mapa"
+        "footer footer footer footer";
+        grid-template-rows: 100px auto auto 100px;
+        grid-template-columns: 300px 1fr 1fr 1fr;
+    }
+}
+@media only screen and (min-width:970px) {
+    .ubi-container{
+        grid-template-areas: 
+            "header navbar navbar navbar"
+            "ubi-text ubi-text ubi-mapa ubi-mapa"
+            "footer footer footer footer";
+        grid-template-rows: 100px auto 100px;
+        grid-template-columns: 300px 1fr 1fr 1fr;
+    }
+}
