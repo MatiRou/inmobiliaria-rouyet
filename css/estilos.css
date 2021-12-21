@@ -64,7 +64,7 @@ nav a:hover{
 
 .main_quienessomos{
     grid-area: main_quienessomos;
-    background-image: url(/img/portada3.jpg);
+    background-image: url(../img/portada3.jpg);
     background-size: cover;
     background-position-x: center;
     background-position-y: 95%;
