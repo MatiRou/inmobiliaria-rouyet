@@ -5,6 +5,9 @@ body{
 
 /* navbar */
 
+header{
+    background-color: #032e42 !important;
+}
 .navbar{
     background-color: #032e42 !important;
 }
@@ -87,6 +90,10 @@ footer{
     color: white;
 }
 
+footer .row{
+    margin: 0 !important;
+}
+
 .horarios ul{
     list-style: none;
 }
@@ -95,6 +102,7 @@ footer{
 }
 .datos ul{
     list-style: none;
+    padding-left: 0 !important;
 }
 .datos img{
     width: 1rem;
@@ -113,4 +121,29 @@ footer{
 /* propiedades */
 .prop{
     margin-top: 1rem !important;
+}
+
+/* html ubicacion */
+
+.tam{
+    height: 100vh;
+}
+
+/* contacto */
+
+.texto{
+    grid-area: texto;
+    width: 350px;
+    justify-self: center;
+    align-self: center;
+    margin: 2rem;
+}
+#texto{
+    margin: 1rem;
+}
+#datos ul{
+    list-style: none;
+}
+#datos img{
+    width: 1rem;
 }
