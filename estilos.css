@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+  background-color: #9cacbf;
+}
+
+header {
+  background-color: #032e42 !important;
+}
+
+.navbar {
+  background-color: #032e42 !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.main_quienessomos {
+  grid-area: main_quienessomos;
+  background-image: url(../img/portada3.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 95%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.main_quienessomos h2 {
+  font-size: xx-large;
+}
+
+.main_quienessomos article {
+  width: 60%;
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgba(192, 202, 180, 0.65);
+  font-weight: bold;
+  font-size: larger;
+}
+
+.main_servicios {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.titulo_ns {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.servis {
+  margin: auto !important;
+}
+
+.serv {
+  background-color: #2b6684 !important;
+  color: white;
+  border: double 5px #012e67;
+}
+
+.serv a {
+  color: white !important;
+}
+
+.main_destacadas {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.desta {
+  background-color: #2b6684 !important;
+  border: #012e67 double 2px !important;
+  color: white !important;
+}
+
+.desta img:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+  -webkit-transition: all 0.7s !important;
+  transition: all 0.7s !important;
+}
+
+footer {
+  background-color: #0a1417 !important;
+  margin-top: 1.6rem;
+  color: white;
+}
+
+footer .row {
+  margin: 0 !important;
+}
+
+.horarios ul {
+  list-style: none;
+}
+
+.datos {
+  text-align: center;
+}
+
+.datos ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.datos img {
+  width: 1rem;
+}
+
+.redes {
+  text-align: center;
+}
+
+.redes ul {
+  list-style: none;
+}
+
+.redes img {
+  width: 1rem;
+}
+
+.prop {
+  margin-top: 1rem !important;
+}
+
+.texto {
+  width: 350px;
+  margin: auto;
+}
+
+#texto {
+  margin: 1rem;
+}
+
+#datos ul {
+  list-style: none;
+}
+
+#datos img {
+  width: 1rem;
+}
+
+.tam {
+  height: 100vh;
+}
+
+.ubi {
+  margin: auto;
+}
+/*# sourceMappingURL=estilos.css.map */

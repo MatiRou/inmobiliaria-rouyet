@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+// inicio vars
+
+$color1: #9cacbf;
+$color2: #032e42;
+$color3: #2b6684;
+$color4: #012e67;
+$color5: #0a1417;
+
+// fin vars
+
+// inicio estilo
+
+body{
+    background-color: $color1;
+}
+
+// inicio header
+
+header{
+    background-color: $color2 !important;
+}
+.navbar{
+    background-color: $color2 !important;
+}
+.nav-link{
+    color: white !important;
+}
+main{
+    margin-top: 20px;
+}
+
+// fin header
+
+// inicio quienes somos 
+
+.main_quienessomos{
+    grid-area: main_quienessomos;
+    background-image: url(../img/portada3.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 95%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3rem;
+    h2{
+        font-size: xx-large;
+    }
+    article{
+        width: 60%;
+        text-align: center;
+        padding: 30px;
+        margin: 30px;
+        background-color: rgba(192, 202, 180, 0.65);
+        font-weight: bold;
+        font-size: larger;
+    }
+}
+
+// fin quienes somos
+
+// inicio servicios
+
+.main_servicios{
+    justify-content: center !important;
+}
+.titulo_ns{
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.servis{
+    margin: auto !important;
+}
+.serv{
+    background-color: $color3 !important;
+    color: white;
+    border: double 5px $color4;
+    a{
+        color: white !important;
+    }
+}
+
+// fin servicios
+
+// inicio destacados
+
+.main_destacadas{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.desta{
+    background-color: #2b6684 !important;
+    border: #012e67 double 2px !important;
+    color: white !important;
+    img:hover{
+        transform: scale(1.1) !important;
+        transition: all 0.7s !important;
+    }
+}
+
+// fin destacados 
+
+// inicio footer
+
+footer{
+    background-color: #0a1417 !important;
+    margin-top: 1.6rem;
+    color: white;
+    .row{
+        margin: 0 !important;
+    }
+}
+.horarios{
+    ul{
+        list-style: none;
+    }
+}
+.datos{
+    text-align: center;
+    ul{
+        list-style: none;
+        padding-left: 0 !important;
+    }
+    img{
+        width: 1rem;
+    }
+}
+.redes{
+    text-align: center;
+    ul{
+        list-style: none;
+    }
+    img{
+        width: 1rem;
+    }
+}
+
+// fin footer
+
+// inicio propiedades
+
+.prop{
+    margin-top: 1rem !important;
+}
+
+// fin propiedades
+
+// inicio contacto
+
+.texto{
+    width: 350px;
+    margin: auto;
+}
+#texto{
+    margin: 1rem;
+}
+#datos{
+    ul{
+        list-style: none;
+    }
+    img{
+        width: 1rem;
+    }
+}
+
+// fin contacto
+
+// inicio ubicacion
+
+.tam{
+    height: 100vh;
+}
+.ubi{
+    margin: auto;
+}
+
+// fin ubicacion
