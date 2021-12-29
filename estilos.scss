@@ -13,7 +13,7 @@ $color5: #0a1417;
 // inicio estilo
 
 body{
-    background-color: $color1;
+    background-image: radial-gradient(circle, #9cacbf, #a5b5c9, #afbfd4, #b8c8de, #c2d2e9);
 }
 
 // inicio header
@@ -27,16 +27,12 @@ header{
 .nav-link{
     color: white !important;
 }
-main{
-    margin-top: 20px;
-}
 
 // fin header
 
 // inicio quienes somos 
 
 .main_quienessomos{
-    grid-area: main_quienessomos;
     background-image: url(../img/portada3.jpg);
     background-size: cover;
     background-position-x: center;
@@ -61,7 +57,9 @@ main{
 // fin quienes somos
 
 // inicio servicios
-
+main{
+    margin-top: 20px;
+}
 .main_servicios{
     justify-content: center !important;
 }
@@ -150,7 +148,7 @@ footer{
 // inicio contacto
 
 .texto{
-    width: 350px;
+    width: 300px;
     margin: auto;
 }
 #texto{
@@ -159,6 +157,9 @@ footer{
 #datos{
     ul{
         list-style: none;
+        li{
+            font-size: small;
+        }
     }
     img{
         width: 1rem;
@@ -177,3 +178,11 @@ footer{
 }
 
 // fin ubicacion
+
+// @medias 
+@media only screen and (max-width:480px){
+    iframe{
+        width: 100%;
+        height: 200px;
+    }
+}

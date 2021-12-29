@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 body {
-  background-color: #9cacbf;
+  background-image: radial-gradient(circle, #9cacbf, #a5b5c9, #afbfd4, #b8c8de, #c2d2e9);
 }
 
 header {
@@ -15,12 +15,7 @@ header {
   color: white !important;
 }
 
-main {
-  margin-top: 20px;
-}
-
 .main_quienessomos {
-  grid-area: main_quienessomos;
   background-image: url(../img/portada3.jpg);
   background-size: cover;
   background-position-x: center;
@@ -46,6 +41,10 @@ main {
   background-color: rgba(192, 202, 180, 0.65);
   font-weight: bold;
   font-size: larger;
+}
+
+main {
+  margin-top: 20px;
 }
 
 .main_servicios {
