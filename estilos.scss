@@ -179,10 +179,5 @@ footer{
 
 // fin ubicacion
 
-// @medias 
-@media only screen and (max-width:480px){
-    iframe{
-        width: 100%;
-        height: 200px;
-    }
-}
+// imports 
+@import "medias"
