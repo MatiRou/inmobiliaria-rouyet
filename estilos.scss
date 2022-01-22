@@ -12,19 +12,22 @@ $color5: #0a1417;
 
 // inicio estilo
 
-body{
+body {
     background-image: radial-gradient(circle, #9cacbf, #a5b5c9, #afbfd4, #b8c8de, #c2d2e9);
 }
 
 // inicio header
 
-header{
+header {
     background-color: $color2 !important;
 }
-.navbar{
+
+.navbar {
     background-color: $color2 !important;
+    font-family: 'Open Sans', sans-serif;
 }
-.nav-link{
+
+.nav-link {
     color: white !important;
 }
 
@@ -32,7 +35,7 @@ header{
 
 // inicio quienes somos 
 
-.main_quienessomos{
+.main_quienessomos {
     background-image: url(../img/portada3.jpg);
     background-size: cover;
     background-position-x: center;
@@ -40,10 +43,12 @@ header{
     justify-content: center;
     display: flex;
     margin-bottom: 3rem;
-    h2{
+
+    h2 {
         font-size: xx-large;
     }
-    article{
+
+    article {
         width: 60%;
         text-align: center;
         padding: 30px;
@@ -57,25 +62,30 @@ header{
 // fin quienes somos
 
 // inicio servicios
-main{
+main {
     margin-top: 20px;
 }
-.main_servicios{
+
+.main_servicios {
     justify-content: center !important;
 }
-.titulo_ns{
+
+.titulo_ns {
     text-align: center;
     padding: 1rem;
     color: white;
 }
-.servis{
+
+.servis {
     margin: auto !important;
 }
-.serv{
+
+.serv {
     background-color: $color3 !important;
     color: white;
     border: double 5px $color4;
-    a{
+
+    a {
         color: white !important;
     }
 }
@@ -84,15 +94,17 @@ main{
 
 // inicio destacados
 
-.main_destacadas{
+.main_destacadas {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-.desta{
+
+.desta {
     background-color: #2b6684 !important;
     border: #012e67 double 2px !important;
     color: white !important;
-    img:hover{
+
+    img:hover {
         transform: scale(1.1) !important;
         transition: all 0.7s !important;
     }
@@ -102,35 +114,45 @@ main{
 
 // inicio footer
 
-footer{
+footer {
     background-color: #0a1417 !important;
     margin-top: 1.6rem;
     color: white;
-    .row{
+    padding: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+
+    .row {
         margin: 0 !important;
     }
 }
-.horarios{
-    ul{
+
+.horarios {
+    ul {
         list-style: none;
     }
 }
-.datos{
+
+.datos {
     text-align: center;
-    ul{
+
+    ul {
         list-style: none;
         padding-left: 0 !important;
     }
-    img{
+
+    img {
         width: 1rem;
     }
 }
-.redes{
+
+.redes {
     text-align: center;
-    ul{
+
+    ul {
         list-style: none;
     }
-    img{
+
+    img {
         width: 1rem;
     }
 }
@@ -139,7 +161,7 @@ footer{
 
 // inicio propiedades
 
-.prop{
+.prop {
     margin-top: 1rem !important;
 }
 
@@ -147,21 +169,25 @@ footer{
 
 // inicio contacto
 
-.texto{
+.texto {
     width: 300px;
     margin: auto;
 }
-#texto{
+
+#texto {
     margin: 1rem;
 }
-#datos{
-    ul{
+
+#datos {
+    ul {
         list-style: none;
-        li{
+
+        li {
             font-size: small;
         }
     }
-    img{
+
+    img {
         width: 1rem;
     }
 }
@@ -170,10 +196,11 @@ footer{
 
 // inicio ubicacion
 
-.tam{
+.tam {
     height: 100vh;
 }
-.ubi{
+
+.ubi {
     margin: auto;
 }
 
